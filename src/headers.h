@@ -43,7 +43,10 @@
 #include <openssl/rand.h>
 #include <openssl/sha.h>
 #include <openssl/ripemd.h>
-#include <db_cxx.h>
+
+#define HAVE_CXX_STDHEADERS
+#include <db4/db_cxx.h>
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>

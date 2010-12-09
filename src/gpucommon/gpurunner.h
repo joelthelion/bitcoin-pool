@@ -1,5 +1,8 @@
 #ifndef _bitcoin_gpu_runner_
 #define _bitcoin_gpu_runner_
+#include <sstream>
+#include <map>
+extern std::map<std::string, std::string> mapArgs;
 
 template <class STEPTYPE,class DEVICECOUNTTYPE>
 class GPURunner
