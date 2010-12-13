@@ -17,13 +17,13 @@ SET(BITCOIN_REMOTE_MINER_SRC
 )
 
 SET(BITCOIN_REMOTE_MINER_CUDA_SRC
-	${CMAKE_SOURCE_DIR}/src/remote/remoteminerclientgpu.cpp
+	${CMAKE_SOURCE_DIR}/src/remote/remoteminerthreadgpu.cpp
 	${CMAKE_SOURCE_DIR}/src/remote/cuda/bitcoinminercuda.cpp
 	${CMAKE_SOURCE_DIR}/src/remote/cuda/bitcoinminercuda.cu
 )
 
 SET(BITCOIN_REMOTE_MINER_OPENCL_SRC
-	${CMAKE_SOURCE_DIR}/src/remote/remoteminerclientgpu.cpp
+	${CMAKE_SOURCE_DIR}/src/remote/remoteminerthreadgpu.cpp
 	${CMAKE_SOURCE_DIR}/src/remote/opencl/bitcoinmineropencl.cpp
 )
 
